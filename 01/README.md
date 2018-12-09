@@ -92,6 +92,13 @@ namespace相关的操作
 
 删除
 
+
+kubectl自动补全：
+```
+source <(kubectl completion bash)
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+```
+
 -----
 
 yaml文件的生成：
