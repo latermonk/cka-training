@@ -13,8 +13,12 @@
 
 消息通信 list-watch  
 
+
+```
 pod的实际体现：
 是通过 workload ,service,label and selector来体现的
+```
+
  
 ## workload:
 
@@ -110,7 +114,11 @@ kubectl get po --watch
 
 将所用命令、创建的Pod完整yaml截图上传
 
+
+```
 kubectl run hwcka-001-sprout-wang --image nginx --port 9999
+```
+
 
 ## 2.通过单个命令创建一个deployment并暴露Service[只用一个命令]
 
